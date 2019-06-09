@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EDA44859-B9FC-40C2-B19D-FB231E51E581}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>ReadFromFileDemo</RootNamespace>
-    <AssemblyName>ReadFromFileDemo</AssemblyName>
+    <ProjectGuid>{2FD4FA26-840C-4BED-AAA4-BEEEB2DD28C8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>zFrontEndHelperLibrary</RootNamespace>
+    <AssemblyName>zFrontEndHelperLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,20 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="FrontEndHelperMethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\zBackEndHelperLibrary\zBackEndHelperLibrary.csproj">
       <Project>{5af4159f-46b0-4857-836b-5392d903d0f1}</Project>
       <Name>zBackEndHelperLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\zFrontEndHelperLibrary\zFrontEndHelperLibrary.csproj">
-      <Project>{2fd4fa26-840c-4bed-aaa4-beeeb2dd28c8}</Project>
-      <Name>zFrontEndHelperLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

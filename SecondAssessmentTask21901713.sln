@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadFromFileDemo", "ReadFromFileDemo\ReadFromFileDemo.csproj", "{EDA44859-B9FC-40C2-B19D-FB231E51E581}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zBackEndHelperLibrary", "zBackEndHelperLibrary\zBackEndHelperLibrary.csproj", "{5AF4159F-46B0-4857-836B-5392D903D0F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zFrontEndHelperLibrary", "zFrontEndHelperLibrary\zFrontEndHelperLibrary.csproj", "{2FD4FA26-840C-4BED-AAA4-BEEEB2DD28C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{EDA44859-B9FC-40C2-B19D-FB231E51E581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDA44859-B9FC-40C2-B19D-FB231E51E581}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDA44859-B9FC-40C2-B19D-FB231E51E581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF4159F-46B0-4857-836B-5392D903D0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF4159F-46B0-4857-836B-5392D903D0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF4159F-46B0-4857-836B-5392D903D0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF4159F-46B0-4857-836B-5392D903D0F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD4FA26-840C-4BED-AAA4-BEEEB2DD28C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD4FA26-840C-4BED-AAA4-BEEEB2DD28C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD4FA26-840C-4BED-AAA4-BEEEB2DD28C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD4FA26-840C-4BED-AAA4-BEEEB2DD28C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
